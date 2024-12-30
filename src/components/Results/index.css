@@ -1,0 +1,167 @@
+.result-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 30px 50px 30px;
+  background-color: #fafbfe;
+  min-height: 85vh;
+}
+.result-view {
+  min-width: 312px;
+  min-height: 458px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #7b879429;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.submit-img {
+  width: 230px;
+  height: 170px;
+}
+.time-img {
+  display: none;
+}
+.display-none {
+  display: none;
+}
+.congrats-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #475569;
+}
+.time-taken-txt {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #334155;
+  display: inline;
+  margin-right: 10px;
+}
+.time-taken {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #164687;
+  display: inline;
+}
+.your-score-container {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.your-score-txt {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #164687;
+}
+.your-score {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #044682;
+  margin-left: 8px;
+}
+.reattempt-btn {
+  min-width: 120px;
+  min-height: 40px;
+  padding: 8px 32px 8px 32px;
+  gap: 0px;
+  border-radius: 4px;
+  background-color: #164687;
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.time-up {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #475569;
+}
+.not-cmpt {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #64748b;
+  margin-top: 0;
+}
+.time-taken-container {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+@media screen and (min-width: 768px) {
+  .submit-img {
+    min-width: 485px;
+    min-height: 364px;
+  }
+  .result-view {
+    min-width: 818px;
+    min-height: 697px;
+    margin-top: 20px;
+  }
+  .congrats-heading {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .time-taken-txt {
+    font-size: 18px;
+  }
+  .time-taken {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .your-score-txt {
+    font-size: 24px;
+  }
+  .your-score {
+    font-size: 48px;
+  }
+  .reattempt-btn {
+    min-width: 130px;
+    min-height: 40px;
+    font-size: 14px;
+  }
+  .time-up {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #334155;
+  }
+  .not-cmpt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

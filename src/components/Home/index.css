@@ -1,0 +1,157 @@
+.home-bg-container {
+  min-height: 100%;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin: 20px;
+}
+
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.instructions-list-container {
+  list-style-type: decimal;
+  padding-left: 15px;
+  color: #496387;
+}
+
+.list-instructions {
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #496387;
+}
+
+.instructions-heading {
+  align-self: flex-start;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #164687;
+}
+
+.home-img {
+  width: 310.83px;
+  height: 234px;
+  margin-top: 20px;
+}
+
+.spn {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #496387;
+}
+
+.start-btn {
+  width: 135px;
+  height: 32px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #164687;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  align-self: flex-start;
+  color: #ffffff;
+  border: 0;
+  margin-bottom: 25px;
+}
+
+.start-link {
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .home-img {
+    order: 1;
+    width: 40%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .instructions-container {
+    max-width: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px 0px #7b879429;
+  }
+
+  .instructions-list-container {
+    padding-left: 25px;
+    margin: 0;
+  }
+
+  .instructions-heading {
+    font-size: 32px;
+    line-height: 37.5px;
+  }
+
+  .list-instructions {
+    font-size: 24px;
+    line-height: 28.13px;
+  }
+
+  .spn {
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: left;
+  }
+
+  .start-btn {
+    width: 171px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .home-img {
+    width: 40%;
+    height: auto;
+  }
+
+  .list-instructions {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .home-img {
+    width: 40%;
+    height: auto;
+  }
+
+  .instructions-container {
+    width: 50%;
+  }
+}
